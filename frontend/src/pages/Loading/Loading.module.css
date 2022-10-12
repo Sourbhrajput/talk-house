@@ -1,0 +1,22 @@
+.loadingWrapper{
+     min-height: 90vh;
+     display: flex ;
+     align-items: center;
+     justify-content: center;
+}
+
+
+.spinner{
+ animation-name: spin;
+ animation-timing-function:linear;
+ animation-duration:1s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes spin{
+  
+   100%{
+     transform: rotate(360deg);
+   }
+}

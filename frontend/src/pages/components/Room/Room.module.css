@@ -1,0 +1,94 @@
+.roomWrapper {
+     background-color: #1D1D1D;
+     padding:10px;
+     border-radius: 8px;
+     cursor: pointer;
+     padding-bottom:20px;
+}
+.userimg {
+     position: relative;
+
+}
+
+.userimg div:last-child {
+     top: 18px;
+     left: 18px
+}
+
+.imgname .imgdiv {
+     position: absolute;
+}
+
+.imgdiv {
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     border: 2px solid;
+     overflow: hidden;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-right: 10px;
+     cursor: pointer;
+     border-color: #17b822;
+     background-color: #1D1D1D;
+
+
+}
+
+.userimg img {
+     min-width: 101%;
+     min-height: 101%;
+     object-fit: cover;
+     object-position: center;
+
+}
+
+.imgname {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 15px;
+     margin-right: 20px;
+   
+
+}
+.imgnameuser1{
+     display: flex;
+     margin-top: 20px;
+}
+.usename span{
+     margin-right: 5px;
+}
+
+.userImgWrapper {
+     position: relative;
+}
+
+.total {
+     text-align: right;
+      margin-top: 20px;
+      position: relative;
+      bottom: -10px;
+}
+.total span{
+     margin-right:5px;
+     display: inline-block;
+    
+}
+
+.topic {
+     width: 80%;
+     margin-top: 10px;
+}
+.usename
+{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     /* justify-content:flex-end; */
+}
+.usename div{
+     font-size:12px;
+}
+
+ 

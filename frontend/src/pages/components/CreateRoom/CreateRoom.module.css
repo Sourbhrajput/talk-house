@@ -1,0 +1,122 @@
+.ceateRoomWrapper {
+     position: fixed;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: rgba(0, 0, 0, 0.573);
+     z-index:1000;
+     
+
+}
+.createRoomContainer{
+     background-color:#1D1D1D;
+     border-radius: 20px;
+     min-width:450px;
+     position: relative;
+     padding: 10px;
+}
+.createRoomContainer input{
+     width:100%;
+     padding: 4px 10px;
+     outline: none;
+     background-color:#272424;
+     border: none;
+     color: #fff;
+     border-radius:8px;
+     margin-top:10px;
+     font-size:1.6rem;
+     margin-bottom: 10px;
+    
+}
+.inputWrapper{
+     position: relative;
+}
+.inputWrapper .inputError
+{
+   outline:2px solid red;
+}
+.inputWrapper::after{
+     content:"Enter room topic !!!";
+     color: red; 
+     margin-top: 5px;
+
+}
+
+.top{
+     padding:30px ;
+}
+.roomtype{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: relative;
+     margin-bottom: 30px;
+}
+.roomtype::after{
+     content: "";
+     border-bottom: 3px solid #181717;
+     width:100%;
+     position: absolute;
+     bottom:-30px; 
+}
+.roomtype div{
+    
+     border-radius:6px;
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 13px;
+     cursor: pointer;
+}
+
+.roomtypecolor{
+     background-color: #272424;
+}
+
+.top h2{
+     font-size: 1.6rem;
+     margin-top: 10px;
+}
+
+.bottom{
+     text-align: center;
+     margin-bottom: 40px;
+
+}
+.bottom h3{
+     font-size: 1.4rem;
+
+}
+.bottom button{
+     background-color:#137339 ;
+     color: white;
+     border: none;
+     outline: none;
+     padding: 5px 25px;
+     display:flex;
+     align-items: center;
+     margin: 20px auto;
+     border-radius: 15px;
+     cursor: pointer;
+}
+.bottom img{
+    width:20px;
+    margin-right: 10px;
+  
+}
+
+.vector{
+    position: absolute;
+      right:15px;
+      top: 15px;
+     cursor: pointer;
+}
+
+.roomtypeheading{
+     font-size: 1.8rem;
+}

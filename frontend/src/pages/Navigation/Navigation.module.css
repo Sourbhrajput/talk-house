@@ -1,0 +1,72 @@
+.nav{
+     display: flex;
+     margin: 0 auto;
+     margin-top:30px;
+     align-items: center;
+     justify-content: space-between;
+}
+.img
+{
+     width:22px;
+     margin-right:5px;
+}
+.brand{
+     font-size:16px
+}
+.right{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+.userimg{
+     min-width: 101%;
+     min-height: 101%;
+    object-fit:cover;
+    object-position: center;
+
+}
+.userImgWrapper{
+     width:50px;
+     height: 50px;
+     border-radius: 50%;
+     border: 4px solid ;
+     overflow: hidden;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-right:10px;
+     cursor: pointer;
+     border-color: #1B279B;
+}
+.nameimgcon{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.name{
+     font-size: 16px;
+     margin-right:10px;
+     display: inline-block;
+}
+
+.btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #1B279B;
+    padding:10px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.4s ease-in-out;
+    border: none;
+    outline: none;
+
+}
+.btn:hover{
+    
+    background-color: #3542b5;
+     
+
+}

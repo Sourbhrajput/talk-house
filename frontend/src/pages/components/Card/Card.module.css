@@ -1,0 +1,31 @@
+.card{
+     width:700px;
+     height: 400px;
+     background-color: #181717;
+     border-radius:15px;
+     display: flex;
+     max-width: 90%;
+     align-items: center;
+     flex-direction:column;
+     
+}
+.cardWrapper{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+
+}
+.img{
+     width: 25px;
+     margin-right:10px;
+}
+.headingWrapper{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 40px;
+     margin-top:50px;
+     font-size:1.8rem;
+
+}

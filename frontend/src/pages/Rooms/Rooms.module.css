@@ -1,0 +1,104 @@
+.roomsWrappper {
+     margin: 0 auto;
+     margin-top: 30px;
+}
+
+.createroombtn {
+     background-color: #137339;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+     color: white;
+     padding: 5px 12px;
+     border-radius: 10px;
+     font-size: 14px;
+     transition: 0.4s all ease-in-out;
+     border: none;
+}
+
+.createroombtn:hover {
+     background-color: #179e4d;
+
+}
+
+
+.roomtop {
+
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: relative;
+     margin-bottom:60px;
+
+}
+
+.left {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.searchWrapper {
+     display: flex;
+
+
+}
+
+.left span {
+     font-size: 16px;
+     position: relative;
+}
+
+.left span::after {
+     content: "";
+     border-bottom: 5px solid #1B279B;
+     width: 80%;
+     position: absolute;
+     left: 0;
+     bottom: -9px;
+}
+.roomtop::after{
+     content: "";
+     border-bottom: 3px solid #181717;
+     width:100%;
+     position: absolute;
+     bottom:-30px; 
+}
+.searchWrapper {
+     background-color: #181717;
+     width: 300px;
+     border-radius: 10px;
+     padding: 6px 10px;
+     margin: 15px;
+     display: flex;
+     align-items: center;
+
+}
+
+.searchWrapper img {
+     width: 14px;
+     margin-right: 10px;
+     margin-top: 2px;
+}
+
+.searchWrapper input {
+     background-color: transparent;
+     border: none;
+     outline: none;
+     color: #ffff;
+     width: 100%;
+     height: 100%;
+     display: inline-block;
+}
+
+.globalrooms{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     /* grid-template-columns: repeat(auto-fit,280px); */
+     gap: 20px;
+     
+}
+
+
+ 

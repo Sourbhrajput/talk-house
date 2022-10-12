@@ -1,0 +1,41 @@
+version: '1'
+services:
+  mongodb:
+    image: :mongo
+    container_name: mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - /var/databases/mongodb/talkhouse-data:/data/db
+  backend:
+    build: 
+      context: ./backend/
+      dockerfile: Dockerfile.prod
+    container_name: backend
+    restart: always
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend:/backend
+      - /backend/node_modules
+    depends_on:
+      - mongodb
+  
+  frontend:
+    build: 
+      context: ./
+      dockerfile: Dockerfile.prod
+    container_name: frontend
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./deploy/default.conf:/etc/nginx/sites-available/default
+      - /var/certs/etc-letsencrypt:/etc/letsencrypt
+    depends_on:
+      - backend
+
+    

@@ -1,0 +1,71 @@
+.input{
+     width: 200px;
+     height: 40px;
+     outline: none;
+     background-color:#272424;
+     border: none;
+     color: #fff;
+     border-radius:5px;
+     margin-top: 30px;
+     font-size:1.6rem;
+     position: relative;
+}
+.input_number{
+     padding-left:50px;
+}
+.input_email{
+     padding-left:20px;
+}
+.img{
+     position: absolute;
+    top:37px;
+    left: 10px;
+    z-index: 1000;
+}
+.inputWrapper{
+     position: relative;
+}
+.btnWrapper{
+     margin-top: 40px;
+}
+.terms{
+   font-size:1.3rem;  
+   width:345px;
+   max-width: 90%;
+   text-align: center;
+   margin-top: 40px;
+   line-height:22px;
+
+}
+ 
+.togglewraper
+{
+ display: flex;
+ justify-content:flex-end;
+ align-items: center;
+width:700px;
+ max-width: 90%;
+margin: 0 auto; 
+     
+ 
+}
+.toggle{
+     min-width: 30px;
+     height:40px;
+     border-radius: 5px;
+     margin-left:10px;
+     margin-bottom: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 2px 7px;
+}
+
+.primary{
+     background-color: #1B279B;
+
+}
+.secondary{
+     background-color: #181717;
+
+}

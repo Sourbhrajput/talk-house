@@ -1,0 +1,20 @@
+ 
+
+POST http://localhost:5000/api/otpgenerate HTTP/1.1
+content-type: application/json
+
+{
+    "phone":"8198912439"
+}
+
+###
+
+POST http://localhost:5000/api/otpauth HTTP/1.1
+content-type: application/json
+
+
+{
+  "hashOtp": "aee20ac0620af19b10aa42c3b50d0d08290d66434ff2fd2c725e63df8873ffde.1663264208743.8198912439",
+  "otp": 4653,
+  "error": false
+}

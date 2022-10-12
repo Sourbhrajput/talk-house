@@ -1,0 +1,299 @@
+.backcontainer {
+     margin: 40px auto;
+     border-top: 2px solid #323232;
+     padding-top: 40px;
+}
+
+.back {
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+
+}
+
+.back h2 {
+     margin-left: 10px;
+     font-weight: 500;
+     position: relative;
+}
+
+.back h2::after {
+     content: "";
+     position: absolute;
+     border-bottom: 3px solid #0077FF;
+     width: 60%;
+     left: 0;
+     bottom: -9px;
+
+
+}
+
+.heading {
+     
+     margin-top: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom:0px;
+
+    
+}
+.heading h2{
+     font-size: 16px;
+     max-width:200px;
+}
+
+.usersContainers {
+     background-color: #323232b3;
+     min-height: calc(100vh - 222.8px);
+     padding: 20px;
+     box-sizing: border-box;
+     border-top-left-radius: 25px;
+     border-top-right-radius: 25px;
+     max-width: 95%;
+     margin: 0 auto;
+
+}
+
+.leaveContainer{
+
+     display: flex;
+     align-items: center;
+     justify-content:space-around;
+}
+.leaveContainer span{
+     display: flex;
+     align-items: center;
+     padding: 10px 15px;
+     background-color: #323232;
+     border-radius:15px;
+     cursor: pointer;
+
+}
+.leaveContainer span h3{
+     margin-left:10px;
+
+}
+.leaveContainer img{
+     height:15px;
+     
+}
+ .leaveContainer div{
+     background-color:#323232;
+     padding:10px;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-right:30px;
+     border-radius: 50%;
+     cursor: pointer;
+ }
+
+ .userwraper{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .userdiv{
+      
+     margin: 0 5px;
+     margin-top: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+ }
+.imgdiv .userImage{
+     min-width: 101%;
+     min-height: 101%;
+     object-fit: cover;
+     object-position: center;
+}
+ .imgdiv{
+     width:60px;
+     height:60px;
+     border-radius: 50%;
+     border: 3px solid;
+     overflow: hidden;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+     border-color: #17b822;
+     background-color: #1D1D1D;
+     margin-bottom: 5px;
+
+ }
+ .other .imgdiv
+ {
+     width: 50px;
+     height: 50px;
+ }
+ .other{
+     margin-top:50px;
+ }
+ .other h3{
+      padding-bottom: 10px;
+ }
+ .imgnamediv{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     position: relative;
+ }
+ .mute{
+     position:absolute;
+     right:-6px;
+     bottom:7px;
+     cursor: pointer;
+     z-index: 1000000;
+ }
+ .clientFeature{
+     position:absolute;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+     transform: rotate(-360deg);
+     z-index: -999;
+ }
+ .clientFeature div{
+     position: absolute;
+     transform: translateY(-10px);
+     cursor: pointer;
+     transition: all 0.6s ease-in-out;
+
+ }
+ .clientFeatureSpeaker div{
+     position: absolute;
+     transform: translateY(-15px);
+     cursor: pointer;
+     transition: all 0.6s ease-in-out;
+
+ }
+ 
+ .clientFeature .closeClient{
+     background-color: #1D1D1D;
+     width:45px;
+     height: 45px;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-items: center;
+     background-color: transparent; 
+
+ }
+ .clientFeatureSpeaker .closeClient{
+     
+     width:55px;
+     height: 55px;
+     
+
+ }
+ .clientFeature .closeClient img{
+     margin: 0 auto;
+     display: none;
+     
+ }
+ .show{
+     z-index: 999;
+      
+ }
+
+  .show div
+ {
+     transform: translateY(-16px) rotate(360deg);
+   color: #fff;  
+   display: block;  
+      
+ }
+  .showSpeaker div
+ {
+    transform: translateY(-10px) rotate(360deg);
+   color: #fff;  
+   display: block;  
+      
+ }
+  .show .leaveclient
+ {
+     transform: translate(-35px,-14px);
+      
+ }
+ .show .speakerClient
+ {
+     transform: translateY(-50px);
+ }
+ .show .profileClinet
+ {
+     transform: translate(35px,-14px);
+ }
+ .show .closeClient{
+     background-color: #1D1D1D;
+ }
+ .show .closeClient img{
+     margin: 0 auto;
+     display: block;
+ }
+ .show .leaveclient img{
+     width:15px;
+ }
+
+ .showSpeaker .leaveclient
+ {
+     transform: translate(-40px,-14px);
+      
+ }
+ .showSpeaker .speakerClient
+ {
+     transform: translateY(-55px);
+ }
+ .showSpeaker .profileClinet
+ {
+     transform: translate(40px,-14px);
+ }
+
+.owner{
+    position: absolute;
+    left:4px;
+    height:15px;
+    top:2px;
+}
+.hasuser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:100px;
+    color:#938585;
+}
+
+.handRaise
+{
+position: absolute;
+bottom:30px;
+right:0px;
+animation-name:handRaise;
+animation-duration:1s;
+animation-timing-function:linear;
+animation-iteration-count: infinite;
+z-index: 111111111111;
+}
+
+@keyframes handRaise {
+   
+
+ 0%
+ {
+    transform: rotate(0deg) ;
+ } 
+ 25%
+ {
+    transform: rotate(25deg) scale(1.07) ;
+ } 
+ 
+ 75%
+ {
+    transform: rotate(-25deg) scale(.9) ;
+ }
+}
+ 
+

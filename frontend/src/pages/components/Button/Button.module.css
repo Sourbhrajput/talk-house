@@ -1,0 +1,23 @@
+.btn{
+     background-color: #1B279B;
+     padding:7px 9px;
+     color: #ffff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     outline: none;
+     border-radius:10px;
+     border: none;
+     margin:5px;
+     cursor: pointer;
+     min-width:100px;
+     transition: all .3s ease-in-out;
+}
+.btn:hover{
+     background-color: #152189;
+}
+.btnimg{
+     width:15px;
+     margin-left:5px;
+      
+}

@@ -1,0 +1,26 @@
+.input{
+     width: 200px;
+     height: 40px;
+     outline: none;
+     background-color:#272424;
+     border: none;
+     color:#fff;
+     border-radius:5px;
+     margin-top: 30px;
+     font-size:1.6rem;
+     position: relative;
+     padding: 3px 20px;
+}
+.inputOver{
+     width: 10px;
+     position: absolute;
+}
+.resend{
+     font-size: 1.3rem;
+     
+}
+.btnWrapper
+{
+    margin-top: 40px; 
+    margin-bottom: 30px;
+}
